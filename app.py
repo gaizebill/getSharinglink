@@ -43,6 +43,3 @@ if st.button('Obtener Sharing Link'):
                 st.error('No se encontró el "sharing_link" en la respuesta.')
         else:
             st.error(f'Error en la solicitud: {response.status_code}')
-
-# Ejecutar la aplicación: Guarda este archivo como app.py y corre en la terminal usando:
-# streamlit run app.py
