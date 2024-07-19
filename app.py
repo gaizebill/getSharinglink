@@ -20,8 +20,7 @@ if st.button('Obtener Sharing Link'):
         
         # Encabezados
         headers = {
-            'Authorization': f'Bearer {token}',
-            'Cookie': '_yasc=nTRzt/DsDVoXTuim9xfpiV5FMusXeAkoaYYiB+/nGsDGORsGw19wQDn/bHzuYAj7'
+            'Authorization': f'Bearer {token}'
         }
         
         # Realizar la solicitud
