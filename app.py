@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Título de la aplicación
-st.title('Get Tracking link')
+st.title('Get tracking link')
 
 # Entrada para el token
 token = st.text_input('Introduce el Token')
